@@ -1,0 +1,132 @@
+*{
+    font-family: 'Dongle', sans-serif;
+    background-color: #082940;
+    margin: 5vh;
+    color: #f1eed7;
+}
+
+.container {
+    text-align: center;
+}
+
+/* posicionar,definir tamanho e cor do título */
+.page-title{
+    font-family: 'Aboreto', cursive;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+    color: #f1eed7;
+}
+
+#btnSortear{
+    margin: 0;
+    border: transparent;
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #7abebe;
+    color: black;    border-radius: 5px;
+    padding: 0px 10px;
+    letter-spacing: 0.1em;
+    transform: 0.7s;
+}
+
+#btnSortear:hover{
+    background-color: #091a2e;
+    color: #7abebe;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Aboreto', cursive;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.carta{
+    background-color: #091a2e;
+    border-radius: 10px;
+
+}
+
+#carta-jogador, #carta-maquina{
+    width: 300px;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    background-size: 360px 300px;
+    background-repeat: no-repeat;
+    border-radius: 33px;
+    
+}
+
+p{
+    align-items: center;
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+}
+
+input[type="radio" i]{
+    margin: 0;
+    text-align: left;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    font-family: 'Dongle', sans-serif;
+}
+
+#opcoes{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.carta-subtitle {
+    font-size: 27px;
+    margin: 0;
+    align-self: start;
+    background-color: #091a2e;
+    border-radius: 3px;
+    padding: 0;
+    width:90px;
+    padding-left: 5px;
+}
+
+.carta-status{
+    margin-top: 15em;
+}
+
+.button-jogar{
+    margin: 0;
+    border: transparent;
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #7abebe;
+    color: black;    border-radius: 5px;
+    padding: 0px 10px;
+    letter-spacing: 0.1em;
+    transform: 0.7s;
+}
+
+.button-jogar:hover{
+    background-color: #091a2e;
+    color: #7abebe;
+}
+
+.resultado-final{
+    font-size: 20px;
+    font-family: 'Aboreto', cursive ;
+    text-align: center;
+    padding-top: 50px;
+    
+}
